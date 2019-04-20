@@ -10,4 +10,5 @@ def line(katz_deli)
     for person in katz_deli do
 
     end
+  end
 end
