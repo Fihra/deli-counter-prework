@@ -12,6 +12,7 @@ def line(currentLine)
       recentLineNum = lineNum + 1
       lineOfPeople.concat"#{recentLineNum}. name "
     }
+    puts lineOfPeople
   end
-  puts lineOfPeople
+  
 end
