@@ -33,4 +33,5 @@ def now_serving(katz_deli)
   else
     nextCustomer = katz.deli.shift
     puts "Currently serving #{nextCustomer}."
+  end
 end
