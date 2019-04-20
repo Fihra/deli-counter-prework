@@ -21,5 +21,7 @@ def line(currentLine)
 end
 
 def take_a_number(katz_deli, newName)
-
+  katz_deli.push(newName)
+  numberInLine = katz_deli.find_index(newName) + 1
+  puts "Welcome, #{newName}. You are number #{numberInLine} in line."
 end
