@@ -5,7 +5,7 @@ def line(currentLine)
   lineCount = 1
 
   if currentLine.length == 0
-    return "The line is currently empty."
+    puts "The line is currently empty."
   else
     for person in currentLine do
 
