@@ -19,3 +19,7 @@ def line(currentLine)
     puts lineOfPeople
   end
 end
+
+def take_a_number(katz_deli, newName)
+
+end
