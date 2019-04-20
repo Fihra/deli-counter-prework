@@ -18,5 +18,4 @@ def line(currentLine)
     }
     puts lineOfPeople
   end
-
 end
