@@ -10,7 +10,7 @@ def line(currentLine)
     lineOfPeople = "The line is currently: "
     currentLine.each_with_index {|name, lineNum|
       recentLineNum = lineNum + 1
-      lineOfPeople.concat"#{recentLineNum}. name "
+      lineOfPeople.concat"#{recentLineNum}. #{name} "
     }
     puts lineOfPeople
   end
