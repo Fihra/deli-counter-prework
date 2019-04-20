@@ -25,3 +25,12 @@ def take_a_number(katz_deli, newName)
   numberInLine = katz_deli.find_index(newName) + 1
   puts "Welcome, #{newName}. You are number #{numberInLine} in line."
 end
+
+def now_serving(katz_deli)
+
+  if katz_deli.length < 1
+    puts "There is nobody waiting to be served!"
+  else
+    nextCustomer = katz.deli.shift
+    puts "Currently serving #{nextCustomer}."
+end
