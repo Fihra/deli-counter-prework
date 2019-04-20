@@ -13,5 +13,5 @@ def line(currentLine)
       lineOfPeople.concat"#{recentLineNum}. name "
     }
   end
-  return lineOfPeople
+  puts lineOfPeople
 end
